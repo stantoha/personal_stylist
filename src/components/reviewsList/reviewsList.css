@@ -1,0 +1,25 @@
+.reviews-list {
+  position: relative;
+  min-height: 38vh;
+  margin: 0 30px;
+  overflow: scroll;
+}
+.reviews-content {
+  position: absolute;
+  width: 200%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+  gap: 15px;
+}
+
+.review-card {
+  margin-top: 18px;
+}
+
+.review-card .review-img {
+  max-width: 120px;
+  height: auto;
+  padding: 5px;
+}

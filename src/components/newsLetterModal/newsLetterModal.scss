@@ -1,0 +1,66 @@
+@import "../../style/variables";
+.box-modal {
+  position: fixed;
+  max-width: 300px;
+  color: $dark-color;
+  background-color: $secondary-color;
+  border-radius: 5px/5px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+  padding: 6px 5px;
+  bottom: 1%;
+  right: 1%;
+  z-index: 200;
+  transition: all 0.7s;
+}
+.box-modal-hide {
+  transform: translateX(300%);
+}
+.newsletter-modal {
+  margin-top: 5px;
+}
+
+.newsletter-close {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  font-weight: 900;
+  border:2px solid $dark-color;
+  border-radius:50%;
+  font-size: 10px;
+  height:13px;
+  width:13px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin: 2px;
+}
+.newsletter-title{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  font-size: 16px;
+  color: $complementary-color;
+  background-color: $dark-color;
+  margin: 5px 15px;
+  padding: 5px;
+}
+.newsletter-title::before {
+  background: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB3aWR0aD0nNDcyJyBoZWlnaHQ9JzQ4MycgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyBmaWxsPScjRkZGJz48ZyBmaWxsLXJ1bGU9J2V2ZW5vZGQnPjxwYXRoIGQ9J20uNyAxODUuNCAxMC0zNS43czQ5LjEtMzMuMyA2My45LTQzLjNWNTguOGMwLTUuOCA0LjctMTAuNiAxMC42LTEwLjZoNzUuMmw2Ni44LTQ1LjNjNC44LTMuMyAxMi43LTMuMyAxNy41IDBsNjYuOCA0NS4zaDc1LjJjNS44IDAgMTAuNiA0LjcgMTAuNiAxMC42djQ3LjZsNjMuOSA0My4zIDEwIDM1LjcuNCAyLjh2Mjg0LjFjMCA1LjgtNC43IDEwLjYtMTAuNiAxMC42SDEwLjljLTUuOCAwLTEwLjYtNC43LTEwLjYtMTAuNlYxODguMmwuNC0yLjhabTI0LjIgMjc2LjNoNDIyLjNsLTQuMi0xNC45LTE2Mi41LTExMy41aC04OC45TDI5IDQ0Ni44bC00LjEgMTQuOVptMjY4LjctMTQ1LjEgMTU3IDEwOS42di0yMjRsLTE2LjUgNC42LTE0MC41IDEwOS44Wk0yMS41IDIwMi4ydjIyNC4xbDE1Ny0xMDkuNkwzOCAyMDYuOGwtMTYuNS00LjZabTc0LjMgMjIuOSAxMTEuMyA4N0gyNjVsMTExLjMtODdWNjkuNEg5NS44djE1NS43Wk0yNCAxODAuOWwyMy44IDYuNyAyNi45IDIxVjEzMmwtMTYuMiAxMC45Yy0xNS41IDEwLjUtMjQuMiAxNi40LTI5LjQgMTkuN0wyNCAxODAuOVpNMzk3LjQgMTMydjc2LjZsMjYuOS0yMSAyMy44LTYuNy01LjEtMTgtNDUuNi0zMC45Wk0xOTguMiA0OC4yaDc1LjZMMjM2IDIyLjZjLTYgNC4xLTE3LjEgMTEuNi0zNy44IDI1LjZaJyBmaWxsLXJ1bGU9J25vbnplcm8nLz48cGF0aCBkPSdNMTQyLjkgMTA2LjloMTg2LjNWMTIxSDE0Mi45em0wIDUwLjZoMTg2LjN2MTQuMUgxNDIuOXptMCA0OC4yaDE4Ni4zdjE0LjFIMTQyLjl6Jy8+PC9nPjwvc3ZnPg==)
+    no-repeat 50%;
+  background-size: 100% auto;
+  content: "";
+  display: inline-block;
+  height: 17px;
+  margin-right: 10px;
+  width: 17px;
+}
+.newsletter-subtitle{
+  font-family: 'Comfortaa';
+  font-style:  cursive;
+  font-size: 12px;
+  color: $dark-color;
+  text-shadow: 0px 0px 0px black;
+  text-align: start;
+  padding:10px 15px;
+}
+

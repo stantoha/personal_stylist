@@ -1,0 +1,21 @@
+@import '../../../style/variables';
+
+.gift-card{
+    position: relative;
+    width: 100%;
+    font-family: 'Comfortaa', cursive;
+    color:$dark-color;
+    &__title{
+        font-family: 'Cormorant Garamond', serif;
+        font-style: italic;
+        text-shadow: 0px 0px 0px $dark-color;
+        color: $complementary-color;
+    } 
+    // &__card{
+    //     position: relative;
+    // }
+} 
+
+
+
+

@@ -1,0 +1,68 @@
+@import '../../../style/variables';
+.services {
+  font-family: 'Comfortaa', cursive;
+}
+.service-tabs button {
+  transition: all 0.5s;
+}
+
+.service-content {
+  width: 100%;
+}
+.service-tab{
+  padding: 10px ;
+  text-align: center;
+}
+.service-tab__inner{
+  background-color:$light-color;
+  color:$dark-color;
+  font-weight: bold;
+  
+}
+.active.service-tab .service-tab__inner{
+  background-color:$main-color;
+  font-weight: bolder;
+  font-size: larger;
+  color:$accent-color;
+}
+.service-icon{
+  border-radius:50%;
+  margin: 5px;
+}
+.service-component {
+  font-size: 18px;
+}
+.service,
+.service-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  margin: 1rem auto;
+  border-radius: 10px;
+}
+.service-divider {
+  width: 50%;
+  margin: 2rem auto;
+  height: 2px;
+  background-color: gray;
+}
+
+.reviews-list-container {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cta__title {
+  font-size: 24px;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 20px;
+  font-family: 'Comfortaa', cursive;
+}
+
+.order-btn {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}

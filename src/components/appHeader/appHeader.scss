@@ -1,0 +1,51 @@
+@import '../../style/variables';
+
+// .nav-link {
+//   font-family: 'Comfortaa', cursive;
+//   flex: 0 1 auto;
+//   text-decoration: none;
+//   letter-spacing: 1px;
+//   font-size: 15px;
+//   color:$light-color;
+// }
+
+// .nav-link.active{
+//   color:$complementary-color;
+// }
+@import '../../style/variables.scss';
+
+.app {
+    &__header {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 37px;
+        span {
+            color: $main-color;
+        }
+    }
+    &__menu {
+       
+            display: flex;
+            justify-content: space-between;
+            
+            li {
+                font-size: 10px;
+                line-height: 12px;
+                margin: 0 4px;
+                a:hover {
+                    color: $main-color;
+                }
+            }
+        
+    }
+    &__nav-icon{
+        width: 24px;
+        height: 24px;
+        border-radius:50%;
+        background-color:$dark-color;
+    }
+}

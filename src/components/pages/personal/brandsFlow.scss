@@ -1,0 +1,98 @@
+@import '../../../style/variables';
+.brands{
+    bottom: 5%;
+    height: 100%;
+}
+img.brand{
+    position: relative;
+    transform: translate(-500%,500%);
+    opacity: 0;
+    padding: 50px;
+    z-index: 10;
+}
+img:nth-child(2n).brand{
+    transform: translate(-500%,-500%);
+}
+
+.service-details{
+    font-size: 36px;
+    width: 70%;
+    font-family: 'Cormorant Garamond', serif;
+    color:$main-color;
+    margin: 50px auto;
+}
+.flow{
+    animation: flow infinite linear 25s forwards
+}
+
+@keyframes flow {
+    0%{
+        transform: translateX(-500%);
+        opacity: 0;
+    }
+    25%{
+        transform: translateX(-250%);
+        opacity:0.4;
+    }
+    50%{
+        transform: translateX(0%);
+        opacity: 0.8;
+    }
+    75%{
+        transform: translateX(250%);
+        opacity: 0.4;
+    }
+    100%{
+        transform: translateX(500%);
+        opacity: 0;
+    }
+}
+
+.flowBack{
+    animation: flowBack infinite linear 25s forwards
+}
+
+@keyframes flowBack {
+    0%{
+        transform: translateX(500%);
+        opacity: 0;
+    }
+    25%{
+        transform: translateX(250%);
+        opacity:0.4;
+    }
+    50%{
+        transform: translateX(0%);
+        opacity: 0.8;
+    }
+    75%{
+        transform: translateX(-250%);
+        opacity: 0.4;
+    }
+    100%{
+        transform: translateX(-500%);
+        opacity: 0;
+    }
+}
+.question{
+    padding:20px;
+    text-align: center;
+    background-color:$main-color;
+    color:$light-color;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
+    text-shadow: 0px 0px 0px $dark-color;
+}
+
+.answer{
+    padding:20px;
+    font-family: 'Cormorant Garamond', serif;
+    background-color:$complementary-color;
+    color:$accent-color;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: start;
+    text-shadow: 0px 0px 0px $dark-color;
+}
+

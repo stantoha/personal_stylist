@@ -1,0 +1,67 @@
+@import '../../../style//variables';
+
+.my-education{
+  background-color:$light-color;
+}
+.my-education__item {
+  letter-spacing: 1px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: rgba(255, 255, 255, 1);
+}
+
+.my-education__item:nth-child(2) {
+  letter-spacing: 1px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.my-education__item:nth-child(3) {
+  letter-spacing: 1px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.my-education__item:nth-child(4) {
+  letter-spacing: 1px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.my-education{
+  margin: 0 auto;
+}
+
+.advantages__title{
+  color:$dark-color;
+}
+.my-education__title{
+  color:$complementary-color;
+}
+
+.study-place{
+  color:$main-color;
+  background-color:$dark-color;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.advantages{
+  background-color:$light-color;
+}
+ul.advantages-list{
+  margin: 50px auto 0px auto;
+  padding: 10px;
+}
+.advantages-item{
+  font-family: 'Comfortaa', cursive;
+  max-width: 75%;
+  margin: 30px auto 30px 0px;
+  color:$light-color;
+  font-size: 24px;
+  background-color:$main-color;
+}
+.advantages-item:nth-of-type(2n){
+  color:$dark-color;
+  margin: 30px 0px 30px auto;
+  background-color:$secondary-color;
+}

@@ -1,0 +1,117 @@
+@import '../../../style/variables';
+
+.single-tour-box{
+    border:1px solid $accent-color;
+    padding: 20px;
+    margin: 0 auto;
+    &__button{
+        position: fixed;
+        top: 9%;
+        left: 2%;
+        display: flex;
+        align-items:center;
+        gap:7px;
+        font-size: 19px;
+        text-decoration: none;
+        color:$accent-color;
+        box-shadow:0px 1px 1px $accent-color;
+    }
+}
+.back-arrow{
+    width:30px ;
+    height:30px ;
+    background-color:$light-color;
+    border-radius:50%;
+}
+.single-tour{
+    padding: 10px;
+    &__title{
+        font-family: 'Comfortaa', cursive;
+        padding:5px 15px;
+        margin: 20px auto 0px auto;
+        font-size: 32px;
+        line-height: 32px;
+        color:$main-color;
+        text-shadow: 0px 0px 0px $dark-color;
+    }
+    &__img{
+        max-width: 80%;
+        margin: 10px auto;  
+    }
+    &__info{
+        margin: 10px auto;
+        justify-content: center;
+        text-align: start;
+        width: 100%;
+        &-block{
+            // border:1px solid $dark-color;
+            // border-collapse: collapse;
+            padding: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        &-block:nth-of-type(2n){
+            font-style: italic;
+            color:$accent-color;
+            font-weight: 700;
+        }
+        &-cities{
+            font-family: 'Cormorant Garamond', serif; 
+            font-size: 24px;
+            font-weight: 700; 
+        }
+        &-distance{
+            font-family: 'Cormorant Garamond', serif; 
+            font-size: 24px;
+            font-weight: 700;
+        }
+    }
+    &__descr-list{
+        margin-bottom: 70px;
+    }
+    &__descr{
+        display: flex;
+        align-items:center;
+        background-color:$secondary-color;
+        padding: 20px;
+        border-radius:15px/15px;
+        box-shadow:0px 1px 5px 0px $dark-color;
+        margin: 50px;
+            &-text{
+            max-width: 80%;
+            margin: 0 auto;
+            font-size: 30px;
+            font-family: 'Cormorant Garamond', serif;
+            font-style: italic;
+            font-weight: 500;
+            text-shadow: 0px 0px 0px $dark-color;
+            color: $accent-color;
+            &-img{
+                width: auto;
+                max-height: 400px;
+            }
+        }
+    }
+    &__route{
+        margin: 70px auto;
+        padding: 30px;
+    }
+    &__map{
+        margin: 70px auto;
+        padding: 30px;
+    }
+    &__program{
+        margin: 70px auto;
+        padding: 30px;
+    }
+    .included,
+    .not-included{
+        padding: 30px;
+    }
+    .included{
+        
+    }
+    .not-included{
+
+    }
+}
