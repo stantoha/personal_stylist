@@ -1,0 +1,379 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "title": "json-server",
+        "author": "typicode"
+      }
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+      }
+    ],
+    "profile": {
+      "name": "typicode"
+    },
+    "services":[
+      {
+        "id":0,
+        "name":"consultation",
+        "title":"Консультація",
+        "img":"consult",
+        "descr":"Консультація - це перший крок на шляху до змін вашого стилю!",
+        "serviceSteps":[
+          "Аналіз теперішнього стилю і визначення правильного напряму його покращення;",
+          "Інформацію про те, як можна підкреслити переваги фігури і сховати недоліки;",
+          "Поради щодо кольорів, фасонів, тканин та текстур, які підходять саме вам;"
+        ],
+        "duration":"1.5 - 2 години",
+        "online":true,
+        "serviceDetails":"Також під час консультації ви зможете задати усі питання, які вас цікавлять.",
+        "price":"100"
+      },
+      {
+        "id":1,
+        "name":"wardrobe",
+        "title":"Розбір гардеробу",
+        "img":"",
+        "descr":"",
+        "serviceSteps":[
+
+        ],
+        "duration":"",
+        "online":"",
+        "serviceDetails":"",
+        "price":""
+      },
+      {
+        "id":2,
+        "name":"shoppingAssist",
+        "title":"Шопінг-супровід",
+        "img":"",
+        "descr":"",
+        "serviceSteps":[
+
+        ],
+        "duration":"",
+        "online":"",
+        "serviceDetails":"",
+        "price":""
+      },
+      {
+        "id":3,
+        "name":"capsuleWardrobe",
+        "title":"Капсульний гардероб",
+        "img":"",
+        "descr":"",
+        "serviceSteps":[
+
+        ],
+        "duration":"",
+        "online":"",
+        "serviceDetails":"",
+        "price":""
+      }
+    ],
+  
+    "tours": [
+          {
+            "id": 1,
+            "tourNum": "Tour 1",
+            "start": "Львів",
+            "name": "Париж-свято, яке завжди з тобою",
+            "dates": [
+              {"dateId":1,"date":"2023-07-01"},
+             {"dateId":2,"date":"2023-07-02"},
+              {"dateId":3,"date":"2023-07-03"}
+            ],
+            "seats": [{"seat":"1",
+          "status":true},{"seat":"2",
+          "status":false},{"seat":"3",
+          "status":true},{"seat":"4",
+          "status":true},{"seat":"5",
+          "status":false},{"seat":"6",
+          "status":true},{"seat":"7",
+          "status":false},{"seat":"8",
+          "status":true},{"seat":"9",
+          "status":true},{"seat":"10",
+          "status":false},{"seat":"11",
+          "status":true},{"seat":"12",
+          "status":false},{"seat":"13",
+          "status":true},{"seat":"14",
+          "status":true},{"seat":"15",
+          "status":false},{"seat":"16",
+          "status":true},{"seat":"17",
+          "status":false},{"seat":"18",
+          "status":true},{"seat":"19",
+          "status":true},{"seat":"20",
+          "status":true},{"seat":"21",
+          "status":true},{"seat":"22",
+          "status":false},{"seat":"23",
+          "status":true},{"seat":"24",
+          "status":true},{"seat":"25",
+          "status":false},{"seat":"26",
+          "status":true},{"seat":"27",
+          "status":false},{"seat":"28",
+          "status":true},{"seat":"29",
+          "status":true},{"seat":"30",
+          "status":false},{"seat":"31",
+          "status":true},{"seat":"32",
+          "status":false},{"seat":"33",
+          "status":true},{"seat":"34",
+          "status":true},{"seat":"35",
+          "status":false},{"seat":"36",
+          "status":true},{"seat":"37",
+          "status":false},{"seat":"38",
+          "status":true},{"seat":"39",
+          "status":true},{"seat":"40",
+          "status":true},{"seat":"41",
+          "status":true},{"seat":"42",
+          "status":false},{"seat":"43",
+          "status":true},{"seat":"44",
+          "status":true},{"seat":"45",
+          "status":false},{"seat":"46",
+          "status":true},{"seat":"47",
+          "status":false},{"seat":"48",
+          "status":true},{"seat":"49",
+          "status":true},{"seat":"50",
+          "status":false},{"seat":"49",
+          "status":true},{"seat":"5",
+          "status":false}
+              ], 
+            "directionCountry": "Франція",
+            "duration": 7,
+            "route":["Львів", "Париж"],
+            "countries": ["Україна", "Польша", "Німеччина", "Франція"],
+            "cities": ["Львів", "Краків", "Берлін", "Париж"],
+            "km": 2500,
+            
+            "descriptionBlocks": [
+              {
+                "title":"Париж" ,
+                "imgs":["https://www.thatonepointofview.com/wp-content/uploads/2021/03/Prettiest-Streets-in-Paris-Montmartre-1.jpg", "https://joujoutravels.com/wp-content/uploads/2021/11/instagram-spots-montmare-pink-Rue-de-lAbreuvoir.jpeg","https://www.thatonepointofview.com/wp-content/uploads/2021/03/Rue-Lamark-Street-in-Montmartre-in-Paris-1.jpg"],
+                "text":["Місто неймовірної краси, місто, в яке закохуєшся з першого погляду, місто, яке нікого не залишає байдужим!","Лише задумайтесь на хвилинку, як багато відомих людей жили та творили в Парижі, які історії приховують вулички міста, скільки натхнення можна отримати, відкривши для себе свій особистий Париж!"]
+                  
+              },
+              {
+                "title":"Нас чекає захоплююча подорож" ,
+                "imgs":["https://static01.nyt.com/images/2023/07/01/travel/22hours-paris-tjzf/22hours-paris-tjzf-superJumbo.jpg", "https://frenchalacarteblog.files.wordpress.com/2013/03/paris-cafe-croissant-coffee-and-newspaper.png"],
+                "text":["Авіатур в форматі міні-групи","Готель в центральному районі міста" ,"Цікава та насичена програма" ,"Професійні екскурсоводи" ,"Смачна кухня" ,"Дивовижні емоції" ,"Фотосесія на згадку"]
+              },
+              {
+                "title":"Час здійснювати мрії, ми в Парижі!" ,
+                "imgs":["https://www.nomadicmatt.com/wp-content/uploads/2018/01/parisguide-1.jpg","https://www.civitatis.com/f/francia/paris/paris.jpg","https://cdn.pariscityvision.com/library/image/7308.jpg","https://thetourguy.com/wp-content/uploads/2019/08/best-paris-tours-feature-1440-675.jpg","https://thetourguy.com/wp-content/uploads/2019/04/Galarie-Vivienne-Best-Shopping-Paris-1440-x-675-900x420.jpeg"],
+                "text":["Ми погуляємо місцями, які символізують Париж, а також відвідаємо приховані від більшості туристів локації, відчуємо атмосферу міста, згадаємо улюблені моменти з романів французьких класиків, поговоримо про значення стилю в житті кожної парижанки, про життя відомих кутюр'є- будемо досліджувати французький 'art de vivre' та насолоджуватись кожним моментом!"]
+              }
+            ],
+            "program": [
+              {
+              "day":"День 1",
+              "dayRoute":["Львів","Париж, Сіте"],
+              "dayDescr": "Авіапереліт в Париж. Трансфер та поселення в готель. Знайомство учасників туру. В цей день нас чекає оглядова екскурсія містом з професійним гідом, який поступово буде відкривати його секрети. Ми прогуляємось місцями, де колись і почалась історія Парижу. Острів Сіте, величний Нотр-Дам, Латинський квартал, Люксембурзький сад, Консьєржері, Лувр, час побачити все на власні очі. В другій половині дня  нас чекає захоплююча прогулянка по Сені а також зустріч з головним символом Парижу – Ейфелевою вежею! Незабутні моменти, фото на згадку, емоції, які залишаються на все життя! ",
+              "dayImgs":["https://www.nomadicmatt.com/wp-content/uploads/2018/01/parisguide-1.jpg","https://www.civitatis.com/f/francia/paris/paris.jpg","https://cdn.pariscityvision.com/library/image/7308.jpg","https://thetourguy.com/wp-content/uploads/2019/08/best-paris-tours-feature-1440-675.jpg","https://thetourguy.com/wp-content/uploads/2019/04/Galarie-Vivienne-Best-Shopping-Paris-1440-x-675-900x420.jpeg"]
+            }, {
+              "day":"День 2",
+              "dayRoute":["Париж, Сакре-Кер","Париж, Діор"],
+              "dayDescr": "Продовжуємо досліджувати Париж, сьогодні нас чекає Монмартр. Монмартр - один з небагатьох кварталів французької столиці, що зберіг  свою самобутність, один з найвідоміших районів ПарижуУ другій половині XIX століття він став серцем паризької богеми. Знамениті художники, артисти, музиканти, діячі мистецтва жили та творили тут, серед них: Ван-Гог, Пікассо, Модильяні, Ренуар, Руссо, Золя, Берліоз, Дега, Матісс та багато інших. На самій вершині гори Монмартр видніється Сакре-Кер - найбільший католицький собор Франції. Перед собором є оглядовий майданчик, з якого відкривається дивовижний вид на Париж. Знакове місце для всіх гостей Монмартра — площа Тертр. Це справді серце кварталу, де відчувається його незабутня атмосфера. Десятки кафе, вуличні художники, музиканти зачаровують гостей.Недаремно Париж називають містом закоханих. У районі Монмартра знаходиться Стіна кохання, на якій слова 'Я тебе кохаю' написані більш ніж на двохстах мовах світу. . Монмартр - невід'ємна частина Парижу. Все завдяки його неповторному духу, творчій, надихаючій атмосфері та його мешканцям. Саме в районі Монмартра працювала Амелі зі знаменитого фільму, і саме тут знаходиться всесвітньо відоме кабаре «Мулен руж», Наш день продовжимо в галереї Діор. Крістіан Діор – один з найпопулярніших та найталановитіших кутюр’є. Його роботи  — це досконалий смак, жіночність, елегантність та неперевершений стиль. А в галереї Діор, що знаходиться в історичній будівлі бренду, зібрана історія Dior від початку до сьогодення! Це неймовірна виставка, яка нікого не залишить байдужим. Вид на місто з висоти пташиного польоту захоплює погляд! В цей день ми також  піднімемось на оглядовий майданчик вежі Монпарнас, звідки Париж буде як на долоні! ",
+              "dayImgs":["https://planetofhotels.com/guide/sites/default/files/styles/big_gallery_image/public/text_gallery/Krakow-5.jpg",
+              "https://i0.wp.com/theadventurousfeet.com/wp-content/uploads/2021/07/Germany-Capital-Berlin.jpg?w=1000&ssl=1"]
+            }, {
+              "day":"День 3",
+              "dayRoute":["Парижю, Орсе","Париж"],
+              "dayDescr": "Нас чекає прогулянка, найкращі моменти якої і збереже на пам’ять фотограф. Як же буде приємно вдома згадувати цей час! А далі будемо детальніше знайомитись з мистецтвом в одному з найбагатших музеїв світу – музеї Д’орсе. Це національний музей мистецтв у Парижі, розташований в колишньому вокзалі на лівому березі Сени. Основу експозиції музею складають роботи імпресіоністів та постімпресіоністів. Музей відомий в першу чергу шедеврами Моне, Деґа, Ренуара, Ван Гога.Вечір залишимо для того, щоб більше дізнатись про гастрономічні вподобання французів. ",
+              "dayImgs":["https://i0.wp.com/theadventurousfeet.com/wp-content/uploads/2021/07/Germany-Capital-Berlin.jpg?w=1000&ssl=1"]
+            }, {
+              "day":"День 4",
+              "dayRoute":["Париж, Опера","Париж, Вандомська площа"],
+              "dayDescr": "Сьогодні нас чекає детальніше знайомство з історією та творчістю мадемуазель Шанель. Що допомогло їй завоювати світ моди?Які знакові речі створила Шанель? Де знаходився її дім моди та де вона мешкала в Парижі? Прогуляємось тими ж вуличками, що і колись Коко Шанель та ще більше впіймаємо натхнення від осіннього Парижу! А далі у вас буде вільний час для неспішних прогулянок, шопінгу, насолоди від кожного моменту! А я радістю допоможу провести його якнайкраще та підкажу варіанти, залежно від побажань. ",
+              "dayImgs":["https://i0.wp.com/theadventurousfeet.com/wp-content/uploads/2021/06/Париж.jpg?resize=1024%2C768&ssl=1"]
+            }, {
+              "day":"День 5",
+              "dayRoute":["Париж","Львів"],
+              "dayDescr": "Час вирушати додому та ділитись враженнями!",
+              "dayImgs":["https://i0.wp.com/theadventurousfeet.com/wp-content/uploads/2021/06/Париж.jpg?resize=1024%2C768&ssl=1"]
+            }],
+            "imgs": ["https://a.cdn-hotels.com/gdcs/production107/d625/d22d2448-0238-4573-b055-6b079e972dbb.jpg?impolicy=fcrop&w=800&h=533&q=medium","https://i0.wp.com/theadventurousfeet.com/wp-content/uploads/2021/06/Paris.jpg?resize=1024%2C768&ssl=1"],
+            "reviews":[
+                {"tourist":"Name Surname",
+              "age":27,
+              "touristPic":"img",
+              "tourDate":"02/05/2021",
+                  "reviewText":"Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Some review text"},
+                {"tourist":"Name Surname",
+                  "age":27,
+                  "touristPic":"img",
+                  "tourDate":"02/05/2021",
+                  "reviewText":"Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Some review text"},
+                {"tourist":"Name Surname",
+                  "age":27,
+                  "touristPic":"img",
+                  "tourDate":"02/05/2021",
+                  "reviewText":"Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Some review text"},
+                {"tourist":"Name Surname",
+                  "age":27,
+                  "touristPic":"img",
+                  "tourDate":"02/05/2021",
+                  "reviewText":"Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Some review text"},
+                {"tourist":"Name Surname",
+                  "age":27,
+                  "touristPic":"img",
+                  "tourDate":"02/05/2021",
+                  "reviewText":"Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Some review text"},
+                {"tourist":"Name Surname",
+                  "age":27,
+                  "touristPic":"img",
+                  "tourDate":"02/05/2021",
+                  "reviewText":"Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Some review text"}],
+              "price": 500
+          },
+          {
+            "id": 2,
+            "tourNum": "Tour 2",
+            "start": "Львів",
+            "name": "Шопінг в Мілані",
+            "dates": [{"dateId":1,"date":"2023-07-01"}, {"dateId":2,"date":"2023-07-02"}, {"dateId":3,"date":"2023-07-03"}],
+            "seats": [{"seat":"1",
+          "status":true},{"seat":"2",
+          "status":false},{"seat":"3",
+          "status":true},{"seat":"4",
+          "status":true},{"seat":"5",
+          "status":false},{"seat":"6",
+          "status":true},{"seat":"7",
+          "status":false},{"seat":"8",
+          "status":true},{"seat":"9",
+          "status":true},{"seat":"10",
+          "status":false},{"seat":"11",
+          "status":true},{"seat":"12",
+          "status":false},{"seat":"13",
+          "status":true},{"seat":"14",
+          "status":true},{"seat":"15",
+          "status":false},{"seat":"16",
+          "status":true},{"seat":"17",
+          "status":false},{"seat":"18",
+          "status":true},{"seat":"19",
+          "status":true},{"seat":"20",
+          "status":true},{"seat":"21",
+          "status":true},{"seat":"22",
+          "status":false},{"seat":"23",
+          "status":true},{"seat":"24",
+          "status":true},{"seat":"25",
+          "status":false},{"seat":"26",
+          "status":true},{"seat":"27",
+          "status":false},{"seat":"28",
+          "status":true},{"seat":"29",
+          "status":true},{"seat":"30",
+          "status":false},{"seat":"31",
+          "status":true},{"seat":"32",
+          "status":false},{"seat":"33",
+          "status":true},{"seat":"34",
+          "status":true},{"seat":"35",
+          "status":false},{"seat":"36",
+          "status":true},{"seat":"37",
+          "status":false},{"seat":"38",
+          "status":true},{"seat":"39",
+          "status":true},{"seat":"40",
+          "status":true},{"seat":"41",
+          "status":true},{"seat":"42",
+          "status":false},{"seat":"43",
+          "status":true},{"seat":"44",
+          "status":true},{"seat":"45",
+          "status":false},{"seat":"46",
+          "status":true},{"seat":"47",
+          "status":false},{"seat":"48",
+          "status":true},{"seat":"49",
+          "status":true},{"seat":"50",
+          "status":false},{"seat":"49",
+          "status":true},{"seat":"5",
+          "status":false}
+              ], 
+            "directionCountry": "Італія",
+            "duration": 5,
+            "route":["Львів", "Мілан"] ,
+            "countries": ["Україна", "Словаччина", "Австрія", "Італія"],
+            "cities": ["Львів", "Братіслава", "Відень", "Мілан"],
+            "km": 1400,
+            
+            "descriptionBlocks": [
+              {
+                "title":"Париж" ,
+                "imgs":[""],
+                "text": "Відкрийте для себе столицю моди Мілан і його знакові пам’ятки."
+              },
+              {
+                "title":"Нас чекає захоплююча подорож" ,
+                "imgs":[""],
+                "text":"Авіатур в форматі міні-групи"
+              },
+              {
+                "title":"Час здійснювати мрії, ми в Парижі!" ,
+                "imgs":[""],
+                "text":"Ми погуляємо місцями, які символізують Париж, а також відвідаємо приховані від більшості туристів локації, відчуємо атмосферу міста, згадаємо улюблені моменти з романів французьких класиків, поговоримо про значення стилю в житті кожної парижанки, про життя відомих кутюр'є- будемо досліджувати французький 'art de vivre' та насолоджуватись кожним моментом!"
+              }
+            ],
+            "program": [
+              {
+              "day":"День 1",
+              "dayRoute":["Львів", "Братіслава"],
+              "dayDescr": "Опис програми на день",
+              "dayImgs":["https://files.slovakia.travel/_processed_/csm_Bratislavsky%2520hrad_94d492b936.jpg"]
+            }, {
+              "day":"День 2",
+              "dayRoute":["Братіслава","Відень"],
+              "dayDescr": "Опис програми на день",
+              "dayImgs":[]
+            }, {
+              "day":"День 3",
+              "dayRoute":["Відень","Мілан"],
+              "dayDescr": "Опис програми на день",
+              "dayImgs":[]
+            }, {
+              "day":"День 4",
+              "dayRoute":["Мілан","Мілан"],
+              "dayDescr": "Опис програми на день",
+              "dayImgs":[]
+            }, {
+              "day":"День 5",
+              "dayRoute":["Мілан","Львів"],
+              "dayDescr": "Опис програми на день",
+              "dayImgs":[]
+            }],
+            "imgs": ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/e7/4c/0a/castello-sforzesco.jpg?w=500&h=300&s=1"],
+            "reviews":[
+                {"tourist":"Name Surname",
+              "age":27,
+              "touristPic":"img",
+              "tourDate":"02/05/2021",
+              "reviewText":"Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Some review text"},
+            {"tourist":"Name Surname",
+              "age":27,
+              "touristPic":"img",
+              "tourDate":"02/05/2021",
+              "reviewText":"Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Some review text"},
+            {"tourist":"Name Surname",
+              "age":27,
+              "touristPic":"img",
+              "tourDate":"02/05/2021",
+              "reviewText":"Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Some review text"},
+            {"tourist":"Name Surname",
+              "age":27,
+              "touristPic":"img",
+              "tourDate":"02/05/2021",
+              "reviewText":"Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Some review text"},
+            {"tourist":"Name Surname",
+              "age":27,
+              "touristPic":"img",
+              "tourDate":"02/05/2021",
+              "reviewText":"Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Some review text"},
+            {"tourist":"Name Surname",
+              "age":27,
+              "touristPic":"img",
+              "tourDate":"02/05/2021",
+              "reviewText":"Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Текст відгука клієнта. Some review text"}],
+            "price": 500
+          }
+    ]
+  
+  }
